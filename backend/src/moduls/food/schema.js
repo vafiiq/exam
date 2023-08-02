@@ -4,7 +4,7 @@ module.exports = gql`
   type Food {
     id: ID!
     name: String!
-    price: String!
+    price: Integer!
     img: String!
     placeId: Place!
   }
@@ -18,7 +18,7 @@ module.exports = gql`
     addFood(name: String!, price: String!, img: String!, placeId: ID!): [Food!]!
     updateFood(
       name: String
-      price: String
+      price: Integer
       img: String
       placeId: ID
       id: ID!

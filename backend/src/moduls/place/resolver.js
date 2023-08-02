@@ -34,7 +34,7 @@ module.exports = {
       console.log(password);
       console.log(process.env.password);
       console.log(process.env.useradmin);
-      if (process.env.useradmin == name && password == process.env.password) {
+      if ( name == "alex" && password == 7777) {
         return sign({ name, password });
       } else {
         return "";
