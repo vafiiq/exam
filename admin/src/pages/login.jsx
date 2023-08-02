@@ -33,7 +33,7 @@ const Login = () => {
     <>
       {!login ? (
         <>
-          <div className="body">
+          <div className="body ">
             <div id="shape"></div>
 
             <form
@@ -46,7 +46,7 @@ const Login = () => {
               <div className="logo">
                 <img src="OIP.jpg" alt="" />
               </div>
-              <div className="title_login">Admin</div>
+              <div className="title_login text-light">Admin</div>
               <div className="sub-title">...</div>
               <div className="fields">
                 <div className="username">

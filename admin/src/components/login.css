@@ -10,7 +10,7 @@
   justify-content: center;
   place-content: center;
   color: #555;
-  background-color: #ecf0f3;
+  background-color: darkcyan;
 }
 
 .login-div {
@@ -20,8 +20,8 @@
   padding: 60px 35px 35px 35px;
   border-radius: 40px;
   border: 1px solid white;
-  background-color: #ecf0f3;
-  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+  background-color: rgb(107, 189, 160);
+  box-shadow: 13px 13px 20px #57ff03, -13px -13px 20px #cbee05;
 }
 .logo {
   width: 100%;
