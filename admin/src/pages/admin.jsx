@@ -12,7 +12,7 @@ const Admin = () => {
     <>
       {login ? (
         <>
-          <h1 className="p-5 m-5">Welcome Admin </h1>
+          <h1 className="p-5 fst-italic text-decoration-line-through text-muted m-5">Hello brotha! </h1>
         </>
       ) : (
         <>
