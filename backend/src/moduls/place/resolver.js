@@ -1,5 +1,8 @@
 const PlaceModel = require("./model");
 const { sign } = require("../../utils/jwt");
+require("dotenv").config();
+const useradmin="Alex"
+const userpassword=7777
 
 module.exports = {
   Query: {
@@ -32,9 +35,9 @@ module.exports = {
     token: (_, { name, password }) => {
       console.log(name);
       console.log(password);
-      console.log(process.env.password);
-      console.log(process.env.useradmin);
-      if ( name == "alex" && password == 7777) {
+      console.log(userpassword);
+      console.log(useradmin);
+      if (useradmin == name && password == userpassword) {
         return sign({ name, password });
       } else {
         return "";
